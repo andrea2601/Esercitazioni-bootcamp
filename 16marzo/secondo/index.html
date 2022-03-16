@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comments</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h2>Lascia un commento:</h2>
+    <form action="#" name="mioform" id="mioform">
+        <div class="form">
+
+            <div class="inputDiv">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="inserisci il tuo username">
+            </div>
+
+            <div class="inputDiv">
+                <label for="mail">Mail:</label>
+                <input type="text" id="mail" name="mail" placeholder="inserisci la tua email">
+            </div>
+
+            <div class="inputDiv">
+                <label for="avatar">Scegli l'avatar da <a href="https://randomuser.me/photos" target="_blank">questo
+                        sito</a>:</label>
+                <input type="text" id="avatar" name="avatar" placeholder="inserisci l'URL del tuo avatar">
+            </div>
+
+            <div class="textDiv">
+                <label for="input">Inserisci il tuo commento</label>
+                <textarea id="input"></textarea>
+            </div>
+
+
+
+        </div>
+    </form>
+
+    <div class="inputBtn">
+        <button id="submit">Aggiungi commento</button>
+    </div>
+
+    <!-- AREA COMMENTI -->
+    <div class="cards">
+        <ul id="comments"></ul>
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

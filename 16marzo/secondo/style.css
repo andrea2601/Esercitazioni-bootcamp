@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(33, 0, 71);
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2{
+    padding: 20px 0;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inputDiv{
+    width: 33%;
+    padding: 20px 10px;
+}
+
+.inputBtn{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 ;
+}
+
+.textDiv{
+    width: 100%;
+    padding: 20px 10px;
+}
+
+label{
+    display: block;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    background: transparent;
+    color: white;
+    min-height: 100px;
+    display: block;
+    border: 2px solid red;
+    border-radius: 20px;
+    resize: none;
+    padding: 10px 20px;
+}
+
+.inputDiv input[type="text"],
+.inputDiv input[type="email"] {
+    width: 100%;
+    color: white;
+    display: block;
+    background: transparent;
+    min-height: 50px;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+
+.inputBtn button{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background: transparent;
+    padding: 20px;
+    border: 2px solid rgba(255, 0, 0, 0.452);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#mioform {
+    position: relative;
+    transition: all 0.4s ease-out;
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 20px 50px;
+}
+
+a{
+    color: red;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.cards{
+    position: relative;
+    transition: all 0.4s ease-out;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.cards ul{
+    width: 100%;
+}
+
+.cards ul .cardItem {
+    width: 100%;
+    padding: 10px 10px;
+    background: rgb(65, 13, 250);
+    border-radius: 20px;
+    margin: 20px 0;
+    text-align:start;
+    display: flex;
+    justify-content: center;
+}
+
+.cards ul .cardItem .message{
+    width: 100%;
+}
+
+.cards ul li {
+    list-style-type: none;
+}
+
+.cards ul .cardItem img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 0, 0);
+    transform: translate(-20px, -20px);
+}
+
+.cards ul .cardItem .email{
+    font-size: 10px;
+    color: rgb(170, 170, 170);
+    margin-bottom: 20px;
+}
+
