@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esercizio 18 marzo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Personaggi - Universo</h1>
+
+    
+
+
+    <div class="add">
+        <h2>Inserisci un nuovo personaggio</h2>
+        <div class="formItem">
+            <label for="nome">Inserisci il nome del personaggio:</label>
+            <input type="text" id="nome" placeholder="Personaggio">
+        </div>
+
+        <div class="formItem">
+            <label for="universo">Inserisci l'universo del personaggio:</label>
+            <input type="text" id="universo" placeholder="Universo">
+        </div>
+        <button id="inserisci" class="pulsante">Inserisci</button>
+    </div>
+
+    <div class="search">
+        <h2>Cerca un personaggio o universo</h2>
+        <form action="#">
+            <label for="cerca">Inserisci il nome del personaggio o luniverso:</label>
+            <input type="text" id="cerca" placeholder="Cerca...">
+        </form>
+        <button id="filtra" class="pulsante">Cerca</button>
+    </div>
+
+    <div class="list">
+        <div class="cards">
+            <h2>Lista personaggi-universo</h2>
+            <ul></ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

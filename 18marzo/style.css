@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(26 25 60);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 0;
+    text-shadow: 15px 15px 25px rgba(0,0,0,0.9);;
+}
+
+h2 {
+    font-weight: 400;
+    text-align: center;
+}
+
+.pulsante {
+    background: rgba(26, 25, 60, 0.452);
+    border: 2px #ee7560 solid;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    box-shadow: 15px 15px 25px -3px rgba(0,0,0,0.9);
+}
+
+.pulsante:hover{
+    background:#ee7560;
+    color:rgba(26, 25, 60);
+}
+
+.add {
+    background: rgba(0, 0, 0, 0.507);
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 50px 50px 30px 50px;
+}
+
+.add h2 {
+    width: 100%;
+    padding: 0 0 20px 0;
+}
+
+.add .formItem {
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.add .formItem label {
+    text-align: left;
+    padding: 0 15px 5px;
+    display: block;
+}
+
+.add .formItem #nome,
+.add .formItem #universo {
+    width: 100%;
+    display: block;
+    outline: none;
+    background: #FAFAFA;
+    min-height: 50px;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    box-shadow: 15px 15px 25px -3px rgba(0,0,0,0.9);
+    /* font-family: 'Exo 2', sans-serif;  */
+}
+
+.search {
+    background: rgba(0, 0, 0, 0.507);
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 50px 50px;
+}
+
+.search h2 {
+    padding: 0 0 20px 0;
+}
+
+.search form {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.search form label {
+    text-align: left;
+    padding: 0 15px 5px;
+    display: block;
+}
+
+.search form #cerca {
+    width: 100%;
+    display: block;
+    outline: none;
+    background: #FAFAFA;
+    min-height: 50px;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    box-shadow: 15px 15px 25px -3px rgba(0,0,0,0.9);
+    /* font-family: 'Exo 2', sans-serif;  */
+}
+
+.cards {
+    background: rgba(0, 0, 0, 0.507);
+    border-radius: 50px;
+    max-width: 990px;
+    min-height: 361px;
+    margin: 20px auto;
+    padding: 50px 50px;
+}
+
+.cards h2 {
+    padding: 0 0 50px 0;
+}
+
+.cards ul {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards ul li {
+    list-style: none;
+    background: rgba(26, 25, 60, 0.452);
+    padding: 30px 30px;
+    margin: 10px;
+    width: 30%;
+    border: #ee7560 solid 2px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 25px -3px rgba(0,0,0,0.9);
+}
+
+.cards ul li p:first-child {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cards ul li p:last-child {
+    color: #aaaaaa;
+}
+
+@media all and (max-width: 990px) {
+    .cards ul li {
+        width: 100%;
+        margin: 10px 5%;
+    }
+
+    .add .formItem {
+        width: 100%;
+    }
+}
