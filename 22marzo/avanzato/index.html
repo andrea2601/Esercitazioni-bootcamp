@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esercizio 18 marzo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Personaggi - Universo</h1>
+
+
+
+
+    <div class="add">
+        <h2>Inserisci un nuovo personaggio</h2>
+        <div class="formItem">
+            <label for="nome">Inserisci il nome del personaggio:</label>
+            <input type="text" id="nome" placeholder="Personaggio">
+        </div>
+
+        <div class="formItem">
+            <label for="anno">Inserisci anno di nascita del personaggio:</label>
+            <input type="text" id="anno" placeholder="Anno di nascita">
+        </div>
+
+        <div class="formItem">
+            <label for="occhi">Inserisci il colore degli occhi del personaggio:</label>
+            <input type="text" id="occhi" placeholder="Colore degli occhi">
+        </div>
+
+        <div class="formItem">
+            <label for="altezza">Inserisci l'altezza del personaggio:</label>
+            <input type="text" id="altezza" placeholder="Altezza">
+        </div>
+
+        <div class="formItem">
+            <label for="genere">Inserisci il genere del personaggio:</label>
+            <input type="text" id="genere" placeholder="Genere">
+        </div>
+        <div class="btnContainer">
+            <button id="inserisci" class="pulsante">Inserisci</button>
+        </div>
+    </div>
+
+    <div class="search">
+        <h2>Cerca un personaggio</h2>
+        <form action="#">
+            <label for="cerca">Inserisci il nome o altri attributi del personaggio:</label>
+            <input type="text" id="cerca" placeholder="Cerca...">
+        </form>
+
+        <button id="filtra" class="pulsante">Cerca</button>
+    </div>
+
+    <div class="list">
+        <div class="cards">
+            <h2>Lista personaggi-universo</h2>
+            <ul></ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
