@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(241, 241, 241);
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    width: 250px;
+}
+
+.logoDiv{
+    text-align: center;
+    padding: 20px 0 0 0 ;
+}
+
+.cardsWrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 50px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.cardsWrapper .card h3 {
+    padding: 0 0 30px 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    width: 90%;
+}
+
+.cardsWrapper .card .delete{
+    width: 10%;
+    text-align: center;
+    padding: 0 0 5px 0;
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+.cardsWrapper .card .delete:hover{
+    color: rgb(114, 114, 114);
+}
+
+.cardsWrapper .card .price{
+    width: 100%;
+    text-align: left;
+    padding: 0 0 5px 0;
+    font-size: 25px;
+}
+.cardsWrapper .card .description{
+    width: 100%;
+    text-align: left;
+    padding: 10px 0 0 0;
+}
+
+h2 {
+    display: inline-block;
+    text-align: center;
+    padding: 25px 0 0 0 ;
+    width: 100%;
+}
+
+
+.cardsWrapper .card {
+    width: 24%;
+    background: white;
+    margin: 5px;
+    padding: 30px 5px;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cardsWrapper .remove{
+    display: none;
+}
+
+.cardsWrapper .card img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
