@@ -34,7 +34,7 @@ form .check {
 }
 form .check label{
     text-align: left;
-    padding: 0 15px 5px;
+    padding: 0 0 10px 15px;
     display: inline-block;
 }
 
@@ -92,6 +92,7 @@ form .inputDiv #description {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -125,6 +126,11 @@ form .inputDiv #description {
     width: 100%;
     text-align: left;
     padding: 10px 0 0 0;
+}
+.cardsWrapper .card .genres{
+    width: 100%;
+    text-align: right;
+    padding: 10px 25px 0 0;
 }
 
 h1 {
@@ -168,8 +174,71 @@ h2 {
     height: 200px;
     object-fit: contain;
 }
+
+#hiddenDiv{
+    display: none;
+}
+
+
+.hiddenDesc.not{
+    display: inline;
+}
+
+#hiddenDiv.popUp{
+    position: fixed;
+    width: 100%;    
+    height: 100%;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: block;
+    background: #00000077;
+    z-index: 999;
+}
 .cardsWrapper .popUp{
-    position: absolute;
-    border: 2px solid red;
-    background: rgb(99, 99, 99);
+    position: fixed;
+    width: 90%;
+    height: 90%;
+    top: 3%;
+    border: 5px solid #ee7560;
+    background: #f1f1f1;
+    z-index: 1000;
+    text-align: start;
+    display: flex;
+    align-self: center;
+    justify-content:flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    object-fit: contain;
+}
+.cardsWrapper .popUp img{
+    width: 50%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.cardsWrapper .popUp .year{
+    width: 100%;
+    text-align: right;
+    padding: 0 25px 5px 0;
+    font-size: 25px;
+}
+.cardsWrapper .popUp .description{
+    width: 50%;
+    text-align: left;
+    padding: 10px 25px 0 25px;
+}
+.cardsWrapper .popUp h3{
+    text-align:start;
+    padding: 10px 0 0 70px;
+    font-size: 50px;
+}
+
+
+.hidden{
+    display: none;
+}
+.hiddenDesc{
+    display: none;
 }
