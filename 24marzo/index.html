@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esercizio 24 marzo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- <div class="logoDiv">
+        <img class="logo" src="./logo.png" alt="logo">
+    </div> -->
+
+
+    <h1>Inserici un nuovo film!</h1>
+    <div class="form">
+        <form>
+            <div class="inputDiv">
+                <label for="title">Titolo</label>
+                <input type="text" id="title" name="title" placeholder="Inserisci il titolo">
+            </div>
+
+            <div class="inputDiv">
+                <label for="img">Copertina</label>
+                <input type="text" id="img" name="img" placeholder="Inserisci l'URL della copertina">
+            </div>
+
+            <div class="inputDiv">
+                <label for="description">Descrizione</label>
+                <input type="text" id="description" name="description" placeholder="Inserisci la descrizione">
+            </div>
+
+            <div class="inputDiv">
+                <label for="year">Anno</label>
+                <input type="text" id="year" name="year" placeholder="Inserisci l'anno">
+            </div>
+
+            <div class="check">
+                <label for="action">Action</label>
+                <input type="checkbox" id="action" name="action" class="generes" value="action">
+                <label for="adventure">Adventure</label>
+                <input type="checkbox" id="adventure" name="adventure" class="generes" value="adventure">
+                <label for="horror">Horror</label>
+                <input type="checkbox" id="horror" name="horror" class="generes" value="horror">
+                <label for="animation">Animation</label>
+                <input type="checkbox" id="animation" name="animation" class="generes" value="animation">
+                <label for="documentary">Documentary</label>
+                <input type="checkbox" id="documentary" name="documentary" class="generes" value="documentary">
+                <label for="sci-fi">Sci-fi</label>
+                <input type="checkbox" id="sci-fi" name="sci-fi" class="generes" value="sci-fi">
+                <label for="comedy">Comedy</label>
+                <input type="checkbox" id="comedy" name="comedy" class="generes" value="comedy">
+                <label for="romantic">Romantic</label>
+                <input type="checkbox" id="romantic" name="romantic" class="generes" value="romantic">
+            </div>
+            <div class="btnContainer">
+                <input type="submit" id="submit" class="pulsante">
+            </div>
+        </form>
+    </div>
+
+
+    <h2>Lista Film</h2>
+    <div class="cardsWrapper">
+
+    </div>
+    <script src="./script.js" type="module"></script>
+    <script src="./utils.js" type="module"></script>
+</body>
+
+</html>
