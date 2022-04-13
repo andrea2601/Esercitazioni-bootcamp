@@ -1,0 +1,12 @@
+.flexItem{
+    margin-top: 20px;
+}
+
+.flexItem p.title{
+    font-weight: 700;
+}
+
+.flexItem p.text{
+    width: 80%;
+    margin: auto;
+}

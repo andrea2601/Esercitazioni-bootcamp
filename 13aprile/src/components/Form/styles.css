@@ -1,0 +1,51 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+}
+
+.form .title{
+    width: 100%;
+    font-weight: 700;
+}
+
+
+.form .objectContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form .messageContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.form label{
+    font-weight: 700;
+    width: 100%;
+}
+
+.form .objectContainer input{
+    width: 30%;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+.form .messageContainer textarea{
+    width: 30%;
+    height: 70px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}

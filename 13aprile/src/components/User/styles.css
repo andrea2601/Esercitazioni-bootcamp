@@ -1,0 +1,35 @@
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100vw;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.user .avatar {
+    width: 100%;
+}
+
+.user .avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.user p {
+    width: 48%;
+    padding: 0 10px;
+    font-weight: 700;
+    margin: 5px 0 0 0;
+}
+
+.user p.name {
+    text-align: end;
+}
+
+.user p.surname {
+    text-align: start;
+}
