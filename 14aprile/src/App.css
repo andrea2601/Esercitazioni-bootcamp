@@ -1,0 +1,17 @@
+.App {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cardsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px;
+}
+
+h1{
+  text-align: center;
+}
+
